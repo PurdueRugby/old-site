@@ -1,0 +1,452 @@
+/* color: #DCCC96 */
+/*color: #CFB53B; - old gold*/
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background: url("../Images/Design_Images/railroad_background.jpg");
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+.main {
+	min-width: 600px;
+}
+
+.main_container {
+	max-width: 1004px;	/*1004 px because of border overflow from #mainSplash and #news*/
+	min-width: 600px;
+	border: 2px solid #DCCC96;
+	overflow-x: hidden;
+	margin: auto;
+}
+/*******************INDEX PAGE CONTAINERS**************************************/
+#header {
+	border: 2px solid black;
+	background: black;
+	height: 270px;
+}
+#header_image {
+	position: absolute;
+}
+
+/***************************NAVBAR*************/
+#navbar {
+	margin-top: 10px;
+}
+#navbar_border {
+	border: 2px solid #DCCC96;
+	background-color: black;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar {
+  text-align: center;
+}
+.navbar-default .navbar-nav li a {
+	color: #DCCC96;
+}
+.navbar-default .navbar-nav li a:hover {
+	background-color: #DCCC96;
+	color: black;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #DCCC96;
+	color: black;
+}
+
+/************NAVBAR DROPDOWN**************/
+.dropdown-menu {
+	background-color: black;
+	border: 2px solid #DCCC96;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #DCCC96;
+	color: black;
+}
+
+#mainSplash {
+	height: 400px;
+	width: 700px;
+	/*border: 2px solid black; debug purposes */
+	display: inline-block;
+	
+}
+
+#mainSplash2 {
+	width: 700px;
+	/*border: 2px solid black; debug purposes */
+	display: inline-block;
+	
+}
+
+/*******CAROUSEL***********/
+
+.carousel-caption{
+	padding: 10px;
+	width: 100%;
+	left: 0%;
+	right: 0%;
+	background: url("../Images/Design_Images/carbon_caption_background.jpg");
+	bottom: 0px;
+	text-align: left;
+	border: 3px solid #424242;
+}
+
+.carousel-caption h3 {
+	color: #DCCC96;
+}
+.alignment {
+	text-align: center;
+}
+
+.carousel-indicators {
+	left: 120%;
+	bottom: -5px;
+	width: 10%;
+}
+
+.carousel_image {
+	margin: auto;
+	max-height: 400px;
+}
+
+/******************social media links *******************/
+#socialMediaBox {
+	height: 400px;
+	width: 296px;		/* -4 accounts for the 4px buffer for using inline-block display */
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: bottom;
+	
+}
+
+.social_media_button {
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+}
+
+.icon_container {
+	align: center;
+}
+
+
+
+
+/***************new box*******************/
+
+
+#news {
+	width: 100%;
+	min-width: 550px;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.front_page_newsbox {
+	width: 49%;
+	height: 196px;
+	display: inline-block;
+	background: url("../Images/Design_Images/news_background.png");
+	background-repeat: no-repeat;
+	border-left: 4px solid #DCCC96;
+	margin-bottom: 4px;
+	padding-left: 10px;
+}
+
+.front_page_newsbox img {
+	width: 200px;
+	height: 133px;
+	float: left;
+	margin: 1px 10px 1px 1px;
+}
+
+.front_page_newsbox h3 {
+	color: #DCCC96;
+	margin-top: 0px;
+}
+
+.front_page_newsbox p {
+	color: white;
+}
+
+.thumbnailtxt {
+}
+
+.date {
+}
+
+/********************************miscellaneous boxes ****************/
+
+/***********recruiting*************/
+#recruitingBox {
+	height: 250px;
+	width: 350px;
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: bottom;
+	background: url("../Images/Design_Images/carbon_caption_background.jpg")
+}
+
+#recruitingBox img {
+	height: 246;
+	float: left;
+	margin-right: 10px;
+}
+
+#recruitingBox h3, p {
+	color: #DCCC96;
+}
+
+
+/**************************HISTORY PAGE*********************************/
+#history_image {
+	border: 2px solid #DCCC96;
+	margin: 10px 25px 10px 10px;
+	float: left;
+}
+
+#history_text {
+	float: left;
+}
+
+/******************RESOURCE PAGE*************************/
+#resources_image {
+	border: 2px solid white;
+	margin: 15px;
+	float: right;
+}
+
+#resource_text {
+	float: left;
+	border: 2px solid white;
+}
+/****************schedule*********/
+
+#scheduleBox {
+	height: 250px;
+	width: 350px;
+	/* border: 2px solid black; debug */
+	display: inline-block;
+	vertical-align: bottom;
+	background: url("../Images/Design_Images/matte_purdue_p.jpeg");
+	padding: 10px;
+}
+
+#scheduleBox  h3{
+	color: #DCCC96; 
+}
+
+/**********ESPN RUGBY *********/
+
+#ESPNrugbyRSS {
+	height: 250px; 
+	padding-left: 25px; 
+	display: inline-block;
+	vertical-align: bottom;
+	background: url("../Images/Design_Images/carbon_caption_background.jpg");
+}
+
+/*****************************************SUBPAGE BOXES********************************************************/
+#header_box {
+	
+	background: url("../Images/Design_Images/carbon_background.jpg");
+	
+}
+
+#header_box h2 {
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 40px;
+	padding-left: 10px;
+	color: DCCC96;
+	border-bottom: 2px solid #DCCC96;
+}
+
+#content_box {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#content_box h2, label, p {
+	color: DCCC96;
+}
+
+#header_box {
+	
+	background: url("../Images/Design_Images/carbon_background.jpg");
+	
+}
+/********************************NEWS PAGES*******************************/
+#newsheader_box {
+	background: url("../Images/Design_Images/carbon_background.jpg");
+}
+#newsheader_box h2 {
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 40px;
+	padding-left: 10px;
+	color: DCCC96;
+	border-bottom: 2px solid #DCCC96;
+}
+
+#newscontent_box {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#newscontent_box h2, h4, label, p {
+	color: DCCC96;
+}
+#newscontent_box h4 {
+	padding-left: 10px;
+}
+
+.text_container {
+	overflow: hidden;
+}
+
+#article_image {
+	float: right;
+    margin: 10px;
+}
+/***********DIVIDER LINE ************************************************/
+.divider_line {
+	margin: -2px 0px 8px 0px;
+	border: 2px solid #DCCC96;
+}
+
+.under_line {
+	border: 1px solid #DCCC96;
+	width: 600px;
+	margin-bottom: 10px;
+	
+}
+/***************footer*****************/
+
+#footer {
+	height: 220px;
+	/* border: 2px solid black; debug */
+	clear: both;
+}
+
+#footer_image {
+	opacity: 0.3;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer_note {
+	text-align: center;
+	font-size: 65%;
+}
+
+
+/***********************ROSTER PAGE********************/
+#roster_table {
+	background: url("../Images/Design_Images/carbon_background.jpg");
+	margin: 0px auto;
+	width: 768px;
+	height: 331px;
+	color: #DCCC96;
+	
+
+}
+/**********************IMAGES PAGE************************/
+
+#images_carousel {
+	width: 600px;
+    height: 400px;
+    border: 2px solid white;
+    float: left;
+	margin-right: 8px;
+}
+
+/***********************RECRUITING PAGE***********************/
+#recruiting_form {
+	padding: 15px;
+}
+
+label {
+	width: 150px;
+}
+
+.label-small {
+	margin-left: 15px;
+	width: 50px;
+}
+
+.custom_button {
+	color: #9B8449;
+}
+
+.bot_stopper {
+	display: none;
+}
+.customform-control {
+	display: inline-block;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+/*******************standard element styles*************/
+table {
+	color: #DCCC96;
+	
+}
+h3 {
+	margin-top: 5px;
+	color: #DCCC96;
+}
+
+p {
+	margin: 0px;
+	color: #DCCC96;
+}
+
+h5 {
+	color: white;
+}
+
+/*******************IMAGE FORMATTING***********************/
+.image_size {
+	width: 600px;
+	height: 400px;
+}
+
+.image_size2 {
+	width: 500px;
+	margin-bottom: 10px;"
+}
+
+.image_size3 {
+	float: left; 
+	width: 600px;
+	margin: 0px 15px 25px 10px; 
+	border: 2px solid white;
+}
+
+.news_image {
+	float: left;
+	width: 150px; 
+	height: 100px;
+	margin-right: 15px;
+}
